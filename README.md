@@ -9,7 +9,9 @@ Users should be able to:
 
 ### Screenshot
 
-<img width="1920" alt="Screenshot" src="">
+![Screenshot-1](https://github.com/faizalap14/MHA-Quotes-Generator/assets/115767098/9c4da538-5d14-46b7-b505-0248f8042fe5)
+![Screenshot-2](https://github.com/faizalap14/MHA-Quotes-Generator/assets/115767098/1fca5878-1007-438a-995d-aaeed7e9c449)
+
 
 
 ## My process
