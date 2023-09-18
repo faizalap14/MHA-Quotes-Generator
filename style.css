@@ -1,0 +1,86 @@
+/************************** Coded by Deku/Faizal ******************/
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    /*Font Style*/
+}
+
+/* Html, Body */
+html,
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 0px;
+}
+
+body {
+    background-color: rgba(13, 12, 14, 0.95);
+    /* Body Background Color */
+}
+
+/* Colors */
+:root {
+    /* Font/Button Color */
+    --Light-Cyan: #e1f3f5;
+    --Neon-Green: #0ef180;
+    /* Box/Container Background Color */
+    --Dark-Grayish-Blue: #226089;
+}
+
+/* Heading */
+h4 {
+    color: var(--Neon-Green);
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+/* Deku Span */
+span {
+    color: var(--Neon-Green)
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--Dark-Grayish-Blue);
+    max-width: 550px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto 20px;
+}
+
+/* Quotes Generator Box */
+.quotes {
+    margin: 20px auto 0;
+    font-size: 25px;
+    width: 100%;
+    color: var(--Light-Cyan);
+}
+
+/* Button */
+.rand {
+    background-color: var(--Neon-Green);
+    border-radius: 30px;
+    padding: 15px 16px 12px;
+    border: 0;
+    cursor: pointer;
+    margin: 0 auto -50px;
+}
+
+.rand:hover {
+    box-shadow: 0 0 40px var(--Neon-Green);
+}
+
+/* Media Query */
+@media (min-width: 530px) {
+    .container {
+        margin: auto;
+    }
+}
